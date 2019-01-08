@@ -1,5 +1,5 @@
 
-devtools::install_github("jwiggi18/balanced_tree")
+
 source(libraries.R)
 source(functions.R)
 
@@ -7,4 +7,4 @@ source(functions.R)
 tree_20 <- rtree(n = 20)
 
 #Use balance function
-balanced_tree::balance(tree_20)
+t20_b <- balance(tree_20)
