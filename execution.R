@@ -1,6 +1,7 @@
 
-source(functions.R)
+devtools::install_github("jwiggi18/balanced_tree")
 source(libraries.R)
+source(functions.R)
 
 #Simulate Tree
 tree_20 <- rtree(n = 20)
