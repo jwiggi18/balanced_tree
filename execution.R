@@ -1,4 +1,4 @@
-setwd("~/packages/balanced_tree")
+setwd("~/GitHubRepos/balanced_tree")
 
 source("libraries.R")
 source("functions.R")
