@@ -1,4 +1,4 @@
-balance <- function (phy)
+amb <- function (phy) #ambidextrous tree
 {
     foo <- function(node, END, where) {
         right <-  (node%%2==0) # new line
